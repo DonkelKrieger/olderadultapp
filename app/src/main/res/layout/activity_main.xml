@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewCalls"
+        android:layout_width="62dp"
+        android:layout_height="16dp"
+        android:text="Llamadas"
+        app:layout_constraintEnd_toEndOf="@+id/imgCalls"
+        app:layout_constraintStart_toStartOf="@+id/imgCalls"
+        app:layout_constraintTop_toBottomOf="@+id/imgCalls" />
+
+    <TextView
+        android:id="@+id/textViewWhatsApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WhatsApp"
+        app:layout_constraintEnd_toEndOf="@+id/imgWhatsApp"
+        app:layout_constraintStart_toStartOf="@+id/imgWhatsApp"
+        app:layout_constraintTop_toBottomOf="@+id/imgWhatsApp" />
+
+    <TextView
+        android:id="@+id/textViewGmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gmail"
+        app:layout_constraintEnd_toEndOf="@+id/imgGmail"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/imgGmail"
+        app:layout_constraintTop_toBottomOf="@+id/imgGmail" />
+
+    <TextView
+        android:id="@+id/textViewContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacts"
+        app:layout_constraintEnd_toEndOf="@+id/imgContacts"
+        app:layout_constraintStart_toStartOf="@+id/imgContacts"
+        app:layout_constraintTop_toBottomOf="@+id/imgContacts" />
+
+    <TextView
+        android:id="@+id/textViewWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wifi"
+        app:layout_constraintEnd_toEndOf="@+id/imgWifi"
+        app:layout_constraintStart_toStartOf="@+id/imgWifi"
+        app:layout_constraintTop_toBottomOf="@+id/imgWifi" />
+
+    <TextView
+        android:id="@+id/textViewCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camara"
+        app:layout_constraintEnd_toEndOf="@+id/imagCamera"
+        app:layout_constraintStart_toStartOf="@+id/imagCamera"
+        app:layout_constraintTop_toBottomOf="@+id/imagCamera" />
+
+    <ImageButton
+        android:id="@+id/imgWhatsApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgGmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_whatsapp"
+        android:onClick="onClick"/>
+
+    <ImageButton
+        android:id="@+id/imgCalls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgContacts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWhatsApp"
+        app:srcCompat="@mipmap/ic_phone_round" />
+
+    <ImageButton
+        android:id="@+id/imagCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgContacts"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWifi"
+        app:srcCompat="@mipmap/ic_camara_round" />
+
+    <ImageButton
+        android:id="@+id/imgGmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_gmail_round" />
+
+    <ImageButton
+        android:id="@+id/imgWifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgGmail"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_wifi_round" />
+
+    <ImageButton
+        android:id="@+id/imgContacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGmail"
+        app:srcCompat="@mipmap/ic_contactos_round" />
+
+    <ImageView
+        android:id="@+id/imgBooks"
+        android:layout_width="260dp"
+        android:layout_height="220dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461"
+        app:srcCompat="@mipmap/ic_libros_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
