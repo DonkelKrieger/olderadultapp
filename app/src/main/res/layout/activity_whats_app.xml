@@ -352,6 +352,300 @@
                         android:textColor="#000000"
                         android:textSize="30sp" />
 
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/perfilwhats" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paso8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="8-ENTRAR A CONTACTOS"
+                        android:textColor="#4CAF50"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Dar click en el icono que se encuentra señalado para poder buscar los contactos"
+                        android:textColor="#000000"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/searchcontacts" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paso9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="9-BUSCAR CONTACTO"
+                        android:textColor="#4CAF50"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Dar click en la barra superior, escribir el nombre de contacto y dar click en el contacto al que desea escribirle"
+                        android:textColor="#000000"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/escribirnombre" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paso10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="10-ENVIAR MENSAJE "
+                        android:textColor="#4CAF50"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Escribir el mensaje, tener en cuenta que el espacio se establece con la tecla que se muestra al inferior central del teclado, para borrar alguna letra o palabra se da click en el inferior derecho del teclado y dar click a la flecha superior derecha cuando desee enviar el mensaje"
+                        android:textColor="#000000"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/paso10" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paso11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="11-ENVIAR AUDIO"
+                        android:textColor="#4CAF50"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Hay dos opciones:"
+                        android:textColor="#000000"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/textView27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1) Mantener sostenido el icono con forma de micrófono y soltar cuando desee enviar."
+                        android:textColor="#000000"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="2) Subir el icono con forma de micrófono y soltarlo, teniendo la oportunidad de dar click en cancelar o enviar en la flecha superior derecha"
+                        android:textColor="#000000"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/audiowhats" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paso12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="12-LLAMADAS"
+                        android:textColor="#4CAF50"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Dar click en el icono con forma de teléfono para realizar una llamada"
+                        android:textColor="#000000"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/llamada" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paso13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="13-VIDEOLLAMADAS"
+                        android:textColor="#4CAF50"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Dar click en el icono con forma de grabadora para realizar una videollamada "
+                        android:textColor="#000000"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/videollamada" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/paso14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="14-COLGAR"
+                        android:textColor="#4CAF50"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Dar click en el icono rojo para colgar una llamada y videollamada "
+                        android:textColor="#000000"
+                        android:textSize="30sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/colgarllamada" />
                 </LinearLayout>
             </LinearLayout>
 
