@@ -17,10 +17,23 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view){
         Intent whatsAppActivity = new Intent(this, WhatsAppActivity.class);
         startActivity(whatsAppActivity);
-        /*switch (view.getId()){
-            break;
-            default:
-                throw new IllegalStateException("Unexpected value: " + view.getId());
-        }*/
+
+    }
+
+    public void onClickWifi(View view){
+        Intent wifiActivity = new Intent(this, Activity_wifi_app.class);
+        startActivity(wifiActivity);
+
+    }
+
+    public void onClickGmail(View view){
+        Intent gmailActivity = new Intent(this, ActivityGmail.class);
+        startActivity(gmailActivity);
+
+    }
+    public void onClickCalls(View view){
+        Intent callsActivity = new Intent(this, ActivityCalls.class);
+        startActivity(callsActivity);
+
     }
 }
