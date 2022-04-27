@@ -22,5 +22,22 @@ public class MainActivity extends AppCompatActivity {
     public void onClickCamera(View view){
         Intent cameraActivity = new Intent(this, CameraActivity.class);
         startActivity(cameraActivity);
+
+    }
+
+    public void onClickWifi(View view){
+        Intent wifiActivity = new Intent(this, Activity_wifi_app.class);
+        startActivity(wifiActivity);
+
+    }
+
+    public void onClickGmail(View view){
+        Intent gmailActivity = new Intent(this, ActivityGmail.class);
+        startActivity(gmailActivity);
+
+    }
+    public void onClickCalls(View view){
+        Intent callsActivity = new Intent(this, ActivityCalls.class);
+        startActivity(callsActivity);
     }
 }
