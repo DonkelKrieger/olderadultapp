@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view){
         Intent whatsAppActivity = new Intent(this, WhatsAppActivity.class);
         startActivity(whatsAppActivity);
-        /*switch (view.getId()){
-            break;
-            default:
-                throw new IllegalStateException("Unexpected value: " + view.getId());
-        }*/
+    }
+
+    public void onClickCamera(View view){
+        Intent cameraActivity = new Intent(this, CameraActivity.class);
+        startActivity(cameraActivity);
     }
 }

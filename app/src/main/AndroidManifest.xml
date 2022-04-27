@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Olderadultapp">
         <activity
-            android:name=".activity_gmail"
+            android:name=".WhatsAppActivity"
             android:exported="false" />
         <activity
-            android:name=".WhatsAppActivity"
+            android:name=".CameraActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
