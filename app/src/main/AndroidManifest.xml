@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Olderadultapp">
         <activity
+            android:name=".ActivityCalls"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityGmail"
+            android:exported="false" />
+        <activity
+            android:name=".Activity_wifi_app"
+            android:exported="false" />
+        <activity
             android:name=".WhatsAppActivity"
             android:exported="false" />
         <activity

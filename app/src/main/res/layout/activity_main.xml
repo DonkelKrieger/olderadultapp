@@ -84,7 +84,8 @@
         app:layout_constraintEnd_toStartOf="@+id/imgContacts"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewWhatsApp"
-        app:srcCompat="@mipmap/ic_phone_round" />
+        app:srcCompat="@mipmap/ic_phone_round"
+        android:onClick="onClickCalls" />
 
     <ImageButton
         android:id="@+id/imagCamera"
@@ -104,7 +105,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_gmail_round" />
+        app:srcCompat="@mipmap/ic_gmail_round"
+        android:onClick="onClickGmail" />
 
     <ImageButton
         android:id="@+id/imgWifi"
@@ -114,7 +116,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imgGmail"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/ic_wifi_round" />
+        app:srcCompat="@mipmap/ic_wifi_round"
+        android:onClick="onClickWifi" />
 
     <ImageButton
         android:id="@+id/imgContacts"
