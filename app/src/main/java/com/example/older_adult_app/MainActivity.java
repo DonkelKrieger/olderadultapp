@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view){
         Intent whatsAppActivity = new Intent(this, WhatsAppActivity.class);
         startActivity(whatsAppActivity);
+    }
+
+    public void onClickCamera(View view){
+        Intent cameraActivity = new Intent(this, CameraActivity.class);
+        startActivity(cameraActivity);
 
     }
 
@@ -34,6 +39,5 @@ public class MainActivity extends AppCompatActivity {
     public void onClickCalls(View view){
         Intent callsActivity = new Intent(this, ActivityCalls.class);
         startActivity(callsActivity);
-
     }
 }
