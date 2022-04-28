@@ -40,4 +40,9 @@ public class MainActivity extends AppCompatActivity {
         Intent callsActivity = new Intent(this, ActivityCalls.class);
         startActivity(callsActivity);
     }
+
+    public void onClickPhone(View view) {
+        Intent phoneActivity = new Intent(this, PhoneActivity.class);
+        startActivity(phoneActivity);
+    }
 }
