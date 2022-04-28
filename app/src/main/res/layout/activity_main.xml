@@ -89,6 +89,7 @@
                         android:id="@+id/imgPhone"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
+                        android:onClick="onClickPhone"
                         app:srcCompat="@mipmap/ic_celular_round" />
 
                     <TextView

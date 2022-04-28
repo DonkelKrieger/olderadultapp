@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhoneActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="MANUAL PARA EL USO DEL CELULAR"
+                android:textAllCaps="false"
+                android:textColor="#00BCD4"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="El siguiente manual se realiza con el propósito de que el adulto mayor pueda: "
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="-Ubicar el botón de encendido y apagado."
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="-Ubicar el botón de bloqueo y desbloqueo."
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="-Ubicar los botones de volumen."
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/escudo_universidad" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/ceideul_logo" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="PASO A PASO"
+                android:textAllCaps="false"
+                android:textColor="#00BCD4"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="1-UBICACIÓN DE BOTÓN DE ENCENDIDO"
+                android:textAllCaps="false"
+                android:textColor="#00BCD4"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Normalmente el botón de encendido esta ubicado en el costado derecho de su dispositivo, es aquel que se encuentra independiente y alejado. Cabe aclarar que esta ubicación es depende de su dispositivo, pues en algunos celulares este botón se encuentra en el lado izquierdo. Después de ubicado dicho botón lo mantiene presionado hasta que en su pantalla aparezca un logo."
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/celular1" />
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="2-UBICACIÓN BOTÓN APAGADO"
+                android:textAllCaps="false"
+                android:textColor="#00BCD4"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Para apagar el celular se realiza por medio del mismo botón del encendido, se mantiene oprimido hasta que aparezca una ventana como se evidencia en la imagen,, y selecciona apagar."
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/celular2" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="3-UBICACIÓN BOTÓN BLOQUEO Y DESBLOQUEO"
+                android:textAllCaps="false"
+                android:textColor="#00BCD4"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Para bloquear su celular se realiza con el mismo botón de encendido y apagado, a excepción de que este no se mantiene oprimido. Para bloquearlo solo se oprime. Para desbloquearlo de oprime y en la pantalla de su dispositivo le indicará que debe deslizar hacia al lado o hacia arriba, para desbloquearlo, dependiendo de su celular"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/celular3" />
+
+            <TextView
+                android:id="@+id/textView61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="4-UBICACIÓN BOTÓN VOLUMEN"
+                android:textAllCaps="false"
+                android:textColor="#00BCD4"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Son dos botones los cuales estan ubicados en el costado derecho, el botón superior es para subir el nivel de volumen y el inferior para bajar el volumen. Estos dos botones estan juntos. "
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/celular4" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

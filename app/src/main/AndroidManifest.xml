@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Olderadultapp">
         <activity
+            android:name=".PhoneActivity"
+            android:exported="false" />
+        <activity
             android:name=".ActivityCalls"
             android:exported="false" />
         <activity
