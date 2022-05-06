@@ -8,18 +8,43 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="24dp"
-            android:layout_marginLeft="24dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginRight="24dp"
-            android:layout_marginBottom="24dp"
+            android:gravity="center"
             android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Capacitación en TIC's"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Proyecto volver a vivir con la libre"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -141,8 +166,6 @@
                         android:id="@+id/imagCamera"
                         android:layout_width="150dp"
                         android:layout_height="150dp"
-                        android:layout_marginEnd="4dp"
-                        android:layout_marginRight="4dp"
                         android:onClick="onClickCamera"
                         app:srcCompat="@mipmap/ic_camara_round" />
 
@@ -181,11 +204,72 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <ImageView
-                android:id="@+id/imageView27"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                app:srcCompat="@drawable/ceideul_logo" />
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    app:srcCompat="@drawable/ceideul_logo" />
+
+                <ImageView
+                    android:id="@+id/imageView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:onClick="onClickMap"
+                    app:srcCompat="@drawable/escudo_universidad" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Créditos"
+                android:textColor="#000000"
+                android:textSize="48sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Estudiantes de \nIngeniería Industrial:"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Angela María Osorio\nCamila Andrea Rizzo\nCarol Lizeth Moyano\nMaría Fernanda Peña\nJosé  Nicolas Riaño\nNicoll Tatiana Cadena\nValentina Chacín Baquero"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Estudiantes de Ingeniería de Sistemas:"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Alexander Bohorquez\nLeison David Perilla\nDaniel Steven Piza\nPaula Andrea Rojas"
+                android:textColor="#000000"
+                android:textSize="24sp" />
 
         </LinearLayout>
     </ScrollView>

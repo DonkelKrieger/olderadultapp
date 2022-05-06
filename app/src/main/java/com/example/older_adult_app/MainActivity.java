@@ -45,4 +45,9 @@ public class MainActivity extends AppCompatActivity {
         Intent phoneActivity = new Intent(this, PhoneActivity.class);
         startActivity(phoneActivity);
     }
+
+    public void onClickMap(View view) {
+        Intent mapActivity = new Intent(this, ActivityPlace.class);
+        startActivity(mapActivity);
+    }
 }
